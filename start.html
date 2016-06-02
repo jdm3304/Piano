@@ -1,0 +1,19 @@
+<html>
+<head>
+ <title>Piano 시작하기</title>
+</head>
+<body>
+ <center>
+  <H3>Start 버튼을 눌러 피아노를 시작해보세요.</H3><br />
+
+  <form method=get action="cgi-bin/SSCL.py">
+  저장 버튼을 누를 시, 목록에서 저장된 파일이 보여집니다.<br />
+  정지 버튼을 눌러도 저장되지 않습니다.<br /><br /><br />
+   <input type="submit" name="Tstart" value="Start">
+   <input type="submit" name="stop" value="정지"><br /><br />
+   <input type="submit" name="commit" value="저장"><br /><br />
+   <a href=/cgi-bin/list.py">목록</a>
+  </form>
+ </center>
+</body>
+</html>
